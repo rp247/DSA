@@ -1,0 +1,45 @@
+Ruchit Patel
+
+rpatel18
+
+Winter 2022
+
+pa4
+
+---------------
+DESCRIPTION
+
+- In this lab, a sparse matrix is implemented in order to save memory on representing matrices and performing operations on a sparse matrix.
+- List ADT is used to implement and solve this problem.
+- Command line arguments:  <name> (specifies the input file)
+			   <name> (specifies the output file).
+
+---------------
+FILES
+
+1. List.h 
+- This header file is an interface to the List ADT as it declares the methods it provides.
+
+2. List.c
+- This source file implements and declares the methods and the List ADT itself.
+
+3. Matrix.h 
+- This header file is an interface to the Matrix ADT as it declares the methods it provides.
+
+4. Matrix.c
+- This source file implements and declares the methods and the Matrix ADT itself. 
+
+5. MatrixTest.c
+- This source file is used to test the functions of the Matrix ADT.
+
+6. ListTest.c
+- This source file is used to test the functions of the List ADT.
+
+7. Sparse.c
+- This source file contains main function and handles IO as well as performing certain operations on a sparse Matrix.
+
+8. Makefile
+- This file is to be used with the GNU make utility to make and run executables.
+
+9. README
+

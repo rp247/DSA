@@ -1,0 +1,38 @@
+Ruchit Patel
+
+rpatel18
+
+Winter 2022
+
+pa2
+
+---------------
+DESCRIPTION
+
+- In this lab, a program is made whose functionality is to take a graph as an input and find the shortest path from given vertices using Breath First Search (BFS) algorithm.
+- Graph ADT is used to implement and solve this problem.
+- Command line arguments:  -i <name> (specifies the input file)
+			   -o <name> (specifies the output file).
+
+---------------
+FILES
+
+1. List.h 
+- This header file is an interface to the List ADT as it declares the methods it provides.
+
+2. List.c
+- This source file implements and declares the methods and the List ADT itself.
+
+3. Graph.h 
+- This header file is an interface to the Graph ADT as it declares the methods it provides.
+
+4. List.c
+- This source file implements and declares the methods and the Graph ADT itself. It also implements the BFS algrotihm.
+
+5. GraphTest.c
+- This source file is used to test the functions of the Graph ADT.
+
+6. Makefile
+- This file is to be used with the GNU make utility to make and run executables.
+
+7. README
